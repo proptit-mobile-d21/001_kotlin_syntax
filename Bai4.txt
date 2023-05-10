@@ -1,0 +1,3 @@
+- Theo em thì đoạn code trên có thể gây ra lỗi khi thực thi vì hàm getValue() có thể trả về giá trị null. 
+- Nếu giá trị null được truyền vào hàm gen(), nó sẽ gây ra ngoại lệ NullPointerException khi cố gắng truy cập thuộc tính n.
+- Để sửa lỗi này theo em ta xóa dấu hỏi ở hàm getValue() đi, để nó không thể xảy ra null.

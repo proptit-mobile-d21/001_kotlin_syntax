@@ -16,10 +16,10 @@ fun isPrime(n : Int) : Boolean {
 }
 
 fun findNextPrime(number : Int) : Int {
-    var sav = number
+    var tmp = number
     while (true){
-        if(isPrime(sav)) return sav
-        ++sav
+        if(isPrime(tmp)) return tmp
+        ++tmp
     }
 }
 

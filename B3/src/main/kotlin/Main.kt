@@ -10,6 +10,7 @@ fun gen(start : Int = 1, end : Int = maxValue) : Int {
 fun findMaxNumber(number : Int) : Int {
     var res = list.get(0)
     for(x in list){
+        //println(x)
         if(x < number && x > res) res = x
     }
     return res

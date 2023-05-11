@@ -92,7 +92,7 @@
             list.add(gen())
         }
         repeat(n) {
-            println(findNextPrime(gen()))
+            println(findMaxNumber(gen()))
         }
     }
     ```

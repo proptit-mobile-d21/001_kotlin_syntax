@@ -9,6 +9,7 @@ fun gen(n : Int?, s : String) {
         println("Null")
         return
     }
+    //n ?: return
     if(n == 0){
         println(s)
         return
